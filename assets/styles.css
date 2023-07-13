@@ -1,0 +1,121 @@
+/*** REFERENCE:
+-font/police: Montserrat
+
+-breakpoint desktop: > 992px
+-tablet: 768 - 992px
+-breakpoint mobile: < 768px
+-code by Molly Felts Vallin
+***/
+
+/* font import/source link */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+html {
+  font-size: calc(14px + 0.390625vw);
+
+  color: white;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #001d2d;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 80px 0 20px;
+
+  /* The image used */
+  background-image: url("./background.webp");
+
+  /* Full height */
+  height: calc(100vh - 60px);
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* text styles - generic */
+h1 {
+  font-size: 1.6em;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 0.7em;
+}
+
+p {
+  font-size: 1em;
+}
+
+.logo img {
+  width: 200px
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 60px;
+}
+
+.icon img {
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+
+footer > p {
+  font-size: 14px;
+}
