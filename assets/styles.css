@@ -75,6 +75,7 @@ h2 {
 
 h3 {
   font-size: 1em;
+  white-space: nowrap;
 }
 
 .container_content {
@@ -114,7 +115,7 @@ h3 {
 }
 
 .link {
-  max-width: 80px;
+  max-width: 70px;
 }
 
 .link img {
@@ -125,7 +126,7 @@ h3 {
   font-size: 0.6em;
   position: absolute;
   right: 20px;
-  bottom: 20px;
+  bottom: 50px;
   transform: rotate(-90deg) translate(100%, 0);
   transform-origin: right bottom;
 }
@@ -151,16 +152,29 @@ h3 {
     padding: 60px 40px 20px;
   }
 
+  .tagline {
+    max-width: 600px;
+  }
+
 }
 
 @media screen and (max-width: 425px) {
 
   main {
-    padding: 60px 30px 20px;
+    padding: 60px 10px 20px;
   }
 
   .link {
     max-width: 60px;
+  }
+
+  h3 {
+    font-size: 11px;
+  }
+
+  .copywrite {
+    right: 10px;
+    bottom: 50px;
   }
 
 }
