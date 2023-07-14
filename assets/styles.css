@@ -22,11 +22,6 @@
 
 html {
   font-size: calc(18px + 0.390625vw);
-
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
-
   background-color: #001d2d;
 }
 
@@ -41,6 +36,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main {
@@ -87,7 +86,7 @@ h3 {
 }
 
 .logo {
-  width: 35%;
+  width: 30%;
   margin-bottom: 40px;
 }
 
@@ -109,8 +108,7 @@ h3 {
 .links {
   display: flex;
   justify-content: center;
-
-  gap: 40px;
+  gap: 30px;
 
   margin-bottom: 40px;
 }
