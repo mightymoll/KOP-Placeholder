@@ -92,7 +92,8 @@ h3 {
 }
 
 .logo img {
-  width: 100%;
+  width: auto;
+  max-height: 250px;
 }
 
 .tagline {
