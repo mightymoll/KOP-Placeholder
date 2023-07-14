@@ -133,7 +133,7 @@ h3 {
 
 /* MEDIA QUERIES - responsive design */
 
-@media screen and (max-width: 1023) {
+@media screen and (max-width: 1023px) {
 
   html {
     font-size: calc(16px + 0.390625vw);
@@ -141,7 +141,7 @@ h3 {
 
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
 
   html {
     font-size: calc(14px + 0.390625vw);
@@ -151,20 +151,16 @@ h3 {
     padding: 60px 40px 20px;
   }
 
-  .logo {
-    min-width: 100px;
-  }
-
 }
 
-@media screen and (max-width: 425) {
+@media screen and (max-width: 425px) {
 
   main {
-    padding: 40px 10px 20px;
+    padding: 60px 30px 20px;
   }
 
   .link {
-    max-width: 40px;
+    max-width: 60px;
   }
 
 }
